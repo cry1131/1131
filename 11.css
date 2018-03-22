@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 10px; }
+
+html, body {
+  background-color: #ccc; }
+  html .head, body .head {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    width: 100%; }
+    html .head .left, body .head .left {
+      height: 100%; }
+      html .head .left span, body .head .left span {
+        font-size: 2rem;
+        line-height: 5rem; }
+    html .head .center, body .head .center {
+      height: 65%; }
+      html .head .center img, body .head .center img {
+        height: 100%; }
+    html .head .right, body .head .right {
+      height: 100%; }
+      html .head .right span, body .head .right span {
+        line-height: 5rem;
+        font-size: 2rem; }
+  html .swiper-container, body .swiper-container {
+    margin-top: 5rem;
+    width: 100%;
+    height: 12rem; }
+    html .swiper-container .swiper-wrapper, body .swiper-container .swiper-wrapper {
+      width: 100%;
+      height: 100%; }
+      html .swiper-container .swiper-wrapper .swiper-slide, body .swiper-container .swiper-wrapper .swiper-slide {
+        width: 100%;
+        height: 100%; }
+        html .swiper-container .swiper-wrapper .swiper-slide img, body .swiper-container .swiper-wrapper .swiper-slide img {
+          width: 100%;
+          height: 100%; }
+    html .swiper-container .swiper-pagination-bullet, body .swiper-container .swiper-pagination-bullet {
+      border-radius: 0;
+      width: 2rem;
+      height: 0.4rem;
+      background: white;
+      opacity: 1; }
+    html .swiper-container .swiper-pagination-bullet-active, body .swiper-container .swiper-pagination-bullet-active {
+      background: green; }
+  html .cen, body .cen {
+    background: white;
+    width: 100%;
+    padding-top: 1.2rem; }
+    html .cen .list, body .cen .list {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      html .cen .list li, body .cen .list li {
+        text-align: center; }
+        html .cen .list li img, body .cen .list li img {
+          width: 4rem;
+          height: 4rem; }
+        html .cen .list li p, body .cen .list li p {
+          font-size: 1.4rem;
+          margin: 0.5rem 0; }
+
+/*# sourceMappingURL=11.css.map */
